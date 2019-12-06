@@ -13,44 +13,55 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Crystal Ly</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="index.html">About Me <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Crystal Ly</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="index.html">About Me <span
+                                class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
 
-    <br>
+        <br>
 
-    <div id="container">
-        <section>
-            <h2>Contact</h2>
-        </section>
-        <hr>
-        <section>
-            <form>
-                Name: <br>
-                <input type="text" name="name" placeholder="Your Name"><br>
-                Email: <br>
-                <input type="text" name="email" placeholder="Your Email"><br>
-                Message: <br>
-                <textarea name="message" placeholder="Write your message to Crystal here!"></textarea><br>
-                <button type="button" class="btn btn-primary">Submit</button>
-            </form>
-        </section>
+        <div id="container">
+            <section>
+                <h2>Contact</h2>
+            </section>
+            <hr>
+            <section>
+                <form>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Name</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                placeholder="First, Last">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">Email</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2"
+                                placeholder="Email address">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Write your message to Crystal here!</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                </form>
+            </section>
+        </div>
+        <footer>Copyright &copy; 2019</footer>
     </div>
 
-    <footer>Copyright &copy; 2019</footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
