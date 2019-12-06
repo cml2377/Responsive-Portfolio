@@ -4,3 +4,20 @@
 footer {
     text-align: center;
 }
+@media screen and (max-width: 768px) {
+    body {
+      text-align: left;
+    }
+    .wrapper {
+      width: 600px;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    body {
+      text-align: center;
+    }
+    .wrapper {
+      width: 600px;
+    }
+  }
