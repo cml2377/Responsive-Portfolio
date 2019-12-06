@@ -1,6 +1,9 @@
 /* Style sheet for index, portfolio, and contact pages */
 
-/* Navigation bar must match sizing of main container */
+body {
+  background-image: url("images/herringbone.png");
+}
+
 footer {
     text-align: center;
     color: #fff;
