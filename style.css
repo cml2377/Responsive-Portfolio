@@ -3,13 +3,14 @@
 /* Navigation bar must match sizing of main container */
 footer {
     text-align: center;
+    color: #fff;
 }
 @media screen and (max-width: 768px) {
     body {
       text-align: left;
     }
     .wrapper {
-      width: 600px;
+      width: 100%;
     }
   }
 
@@ -17,7 +18,10 @@ footer {
     body {
       text-align: center;
     }
+    .navbar {
+        align-content: center;
+    }
     .wrapper {
-      width: 600px;
+      width: 100%;
     }
   }
