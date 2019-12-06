@@ -18,8 +18,14 @@ footer {
     body {
       text-align: center;
     }
-    .navbar {
-        align-content: center;
+    .navbar-brand {
+        margin: 0 auto;
+    }
+    .navbar-toggler {
+      width: 100%;
+    }
+    .nav-item {
+      margin: 0px;
     }
     .wrapper {
       width: 100%;
