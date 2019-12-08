@@ -6,17 +6,18 @@
     <title>Contact</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="bootstrap-lux.css">
+    <!-- <link rel="stylesheet" href="bootstrap-lux.css"> -->
     <!-- <link rel="stylesheet" href="bootstrap-slate.css"> -->
     <!-- <link rel="stylesheet" href="bootstrap-minty.css"> -->
     <!-- <link rel="stylesheet" href="bootstrap-cyborg.css"> -->
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="homework-style.css">
     <!-- <link rel= "stylesheet" href="css/reset.css" -->
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="#">Crystal Ly</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +35,8 @@
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Wherever you go, there you are.</a>
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">"Wherever you go, there
+                            you are."</a>
                     </li>
                 </ul>
             </div>
@@ -43,14 +45,19 @@
 
         <br>
 
-        <div class="card mb-3">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <img src="images/Crystal.jpg" class="card-img" alt="photoCrystal">
+        <div class="card mb-3" id="aboutMeContent">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>About Me</h2>
                 </div>
-                <div class="col-md-8">
+            </div>
+            <hr>
+            <div class="row no-gutters">
+                <div class="col-md-4 col-sm-6">
+                    <img src="images/Crystal.jpg" class="card-img" id="aboutMePhoto" alt="photoCrystal">
+                </div>
+                <div class="col-md-8 col-sm-6">
                     <div class="card-body">
-                        <h5 class="card-title">About Me</h5>
                         <p class="card-text">An aspiring software developer with a background in science and
                             microbiology. Well versed in working
                             independently and in groups, as well as communicating effectively with professionals and the
