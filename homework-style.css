@@ -124,6 +124,9 @@ footer {
     .navbar-collapse {
         background-color: #ffffff;
     }
+    .nav-link {
+        margin: 0;
+    }
     .nav-item {
       margin: 0px;
     }
