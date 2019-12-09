@@ -16,6 +16,10 @@ a.nav-link {
     color: #666666;
 }
 
+.nav-link {
+    margin-left: 20px;
+}
+
 .headerBG {
     background-color: #ffffff;
 }
@@ -64,6 +68,14 @@ p {
     color: #ffffff;
 }
 
+.navbar {
+    padding: 0;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
 footer {
     text-align: center;
     color: #ffffff;
@@ -82,6 +94,9 @@ footer {
     .wrapper {
       width: 100%;
     }
+    .nav-link {
+        margin-left: 20px;
+    }
   }
 
   @media screen and (max-width: 640px) {
@@ -92,11 +107,20 @@ footer {
         max-width: 100%;
         height: auto;
     }
+    .navbar {
+        background-color: #4aaaa5;
+    }
     .navbar-brand {
         margin: 0 auto;
+        background-color: #4aaaa5;
     }
     .navbar-toggler {
       width: 100%;
+      margin: 0;
+      background-color: #ffffff;
+    }
+    .navbar-collapse {
+        background-color: #ffffff;
     }
     .nav-item {
       margin: 0px;
